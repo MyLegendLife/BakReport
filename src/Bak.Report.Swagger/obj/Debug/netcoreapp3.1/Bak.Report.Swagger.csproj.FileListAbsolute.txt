@@ -1,0 +1,15 @@
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Swagger.deps.json
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Swagger.dll
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Swagger.pdb
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Domain.dll
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Domain.pdb
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Domain.xml
+D:\Projects\BakReport\src\Bak.Report.Swagger\bin\Debug\netcoreapp3.1\Bak.Report.Domain.Shared.pdb
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.csproj.CopyComplete
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.dll
+D:\Projects\BakReport\src\Bak.Report.Swagger\obj\Debug\netcoreapp3.1\Bak.Report.Swagger.pdb

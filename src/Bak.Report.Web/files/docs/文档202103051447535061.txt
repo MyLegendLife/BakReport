@@ -1,0 +1,10 @@
+netsh interface ip set dns name="以太网" source=dhcp
+
+netsh interface ip set dns name="以太网" source=static addr=114.114.114.114
+
+
+
+
+netsh interface ip set dns "以太网" static 8.8.8.8 primary
+
+netsh interface ip add dns "以太网" 8.4.8.4

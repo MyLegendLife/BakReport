@@ -1,0 +1,9 @@
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\bin\Release\netcoreapp3.1\Bak.Report.Application.EventBus.deps.json
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\bin\Release\netcoreapp3.1\Bak.Report.Application.EventBus.dll
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\bin\Release\netcoreapp3.1\Bak.Report.Application.EventBus.pdb
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.dll
+D:\Projects\BakReport\src\Bak.Report.Application.EventBus\obj\Release\netcoreapp3.1\Bak.Report.Application.EventBus.pdb

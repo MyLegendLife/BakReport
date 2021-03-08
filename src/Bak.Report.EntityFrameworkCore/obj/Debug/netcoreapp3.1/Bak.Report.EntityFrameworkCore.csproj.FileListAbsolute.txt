@@ -1,0 +1,15 @@
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.deps.json
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.dll
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.pdb
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.Domain.dll
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.Domain.pdb
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.Domain.xml
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Bak.Report.Domain.Shared.pdb
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.csproj.CopyComplete
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.dll
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.pdb
+D:\Projects\BakReport\src\Bak.Report.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Bak.Report.EntityFrameworkCore.csproj.CoreCompileInputs.cache

@@ -1,0 +1,165 @@
+﻿@{
+    Layout = null;
+}
+<link href="~/layui/css/layui.css" rel="stylesheet" />
+<form class="layui-form" style="padding: 20px;">
+    <div class="layui-form-item">
+        <label class="layui-form-label">报表名称</label>
+        <div class="layui-input-inline">
+            <input type="text" name="Name" required="" lay-verify="required" placeholder="请输入报表名称" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">选择框</label>
+        <div class="layui-input-inline">
+            @Html.DropDownList("CategoryId", ViewData["Category"] as SelectList)
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">简介</label>
+        <div class="layui-input-block">
+            <textarea name="Introduction" placeholder="请输入简介" class="layui-textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">说明</label>
+        <div class="layui-input-block">
+            @*<textarea name="Description" placeholder="请输入说明" rows="10" class="layui-textarea"></textarea>*@
+            <textarea id="description" name="Description" style="display: none;"></textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="button" class="layui-btn" id="btnDocUpload"><i class="layui-icon"></i>上传文件</button>
+            <input type="text" id="docUri" name="DocUri" disabled="disabled" style="border:0; background-color:#FFF; width: 300px;">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="button" class="layui-btn" id="btnImgUpload">多图片上传</button>
+            @*<input class="layui-upload-file" type="file" accept="" name="" multiple="">*@
+            <blockquote class="layui-elem-quote layui-quote-nm" style="margin-top: 10px;">
+                预览图：
+                <div class="layui-upload-list" id="images">
+
+                </div>
+            </blockquote>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="btn">保存</button>
+        </div>
+    </div>
+</form>
+
+<script src="~/jquery/1.9.1/jquery.js"></script>
+<script src="~/layui/layui.js"></script>
+<script>
+    layui.use('form',
+        function () {
+            var form = layui.form;
+
+            //监听提交
+            form.on('submit(btn)',
+                function (data) {
+                    //富文本取值
+                    var description = layedit.getContent(index);
+                    data.field.Description = description;
+                    //图片取值
+                    var images = [];
+                    $('#images').find('img').each(function (i, ele) {
+                        var image = {};
+                        image.Sort = i;
+                        image.Uri = $(ele).attr('src');
+                        images.push(image);
+                    });
+                    data.field.Images = images;
+                    $.ajax({
+                        url: 'Add',
+                        type: 'post',
+                        data: JSON.stringify(data.field),
+                        dataType: 'json',
+                        contentType: 'application/json;charset=UTF-8',
+                        success: function (res) {
+                            if (res.code == '0') {
+                                parent.layer.close(parent.layer.index);
+                            } else {
+                                layer.msg('操作失败', { icon: 2, time: false, btn: ['关闭'] });
+                            }
+                        },
+                        error:
+                            function () {
+                                layer.msg('服务器异常', { icon: 2, time: 1500 });
+                            }
+                    });
+
+                    return false;
+                });
+        });
+</script>
+<script>
+    layui.use('upload',
+        function () {
+            var $ = layui.jquery, upload = layui.upload;
+
+            //多图片上传
+            upload.render({
+                elem: '#btnImgUpload',
+                url: 'UploadImage', //改成您自己的上传接口
+                //auto:false,
+                multiple: true,
+                //before: function (obj) {
+                //    //预读本地文件示例，不支持ie8
+                //    obj.preview(function (index, file, result) {
+                //        $('#demo2').append('<img src="' + result + '" alt="' + file.name + '" class="layui-upload-img">')
+                //    });
+                //},
+                done: function (res) {
+                    //上传完毕
+                    $('#images').append('<img src="' + res.message + '" alt="" class="layui-upload-img" onclick=preImg(' + '\'' + res.message + '\'' + ')>');
+                }
+            });
+
+            //指定允许上传的文件类型
+            upload.render({
+                elem: '#btnDocUpload',
+                url: 'UploadDoc' //改成您自己的上传接口
+                ,
+                accept: 'file', //普通文件
+                done: function (res) {
+                    $("#docUri").val(res.message);
+                }
+            });
+        });
+</script>
+<script>
+    var layedit,index;
+    layui.use('layedit', function(){
+        layedit = layui.layedit;
+        index = layedit.build('description'); //建立编辑器
+    });
+
+    function preImg(uri) {
+        layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            area: ['auto'],
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: true,
+            content: '<div>' +
+                ' <img src="' + uri + '" style="max-width: 100%;">' +
+                ' </div>'
+        });
+    }
+</script>
+<style>
+    .layui-upload-img {
+        width: 92px;
+        height: 92px;
+        margin: 0 10px 10px 0;
+    }
+</style>

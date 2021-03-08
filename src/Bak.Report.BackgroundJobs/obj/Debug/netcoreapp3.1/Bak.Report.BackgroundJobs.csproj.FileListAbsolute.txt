@@ -1,0 +1,9 @@
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\bin\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.deps.json
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\bin\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.dll
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\bin\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.pdb
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.dll
+D:\Projects\BakReport\src\Bak.Report.BackgroundJobs\obj\Debug\netcoreapp3.1\Bak.Report.BackgroundJobs.pdb

@@ -1,0 +1,16 @@
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Application.Contracts.deps.json
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Application.Contracts.dll
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Application.Contracts.pdb
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Common.dll
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Domain.dll
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Common.pdb
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Domain.pdb
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\bin\Release\netcoreapp3.1\Bak.Report.Domain.Shared.pdb
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.csproj.CopyComplete
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.dll
+D:\Projects\BakReport\src\Bak.Report.Application.Contracts\obj\Release\netcoreapp3.1\Bak.Report.Application.Contracts.pdb

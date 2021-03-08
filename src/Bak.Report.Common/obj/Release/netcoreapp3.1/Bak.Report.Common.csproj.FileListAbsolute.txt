@@ -1,0 +1,14 @@
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Common.deps.json
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Common.dll
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Common.pdb
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Domain.dll
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Domain.pdb
+D:\Projects\BakReport\src\Bak.Report.Common\bin\Release\netcoreapp3.1\Bak.Report.Domain.Shared.pdb
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.csproj.CopyComplete
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.dll
+D:\Projects\BakReport\src\Bak.Report.Common\obj\Release\netcoreapp3.1\Bak.Report.Common.pdb

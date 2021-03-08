@@ -1,0 +1,9 @@
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\bin\Debug\netstandard2.0\Bak.Report.Domain.Shared.deps.json
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\bin\Debug\netstandard2.0\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\bin\Debug\netstandard2.0\Bak.Report.Domain.Shared.pdb
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.csprojAssemblyReference.cache
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.AssemblyInfoInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.AssemblyInfo.cs
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.dll
+D:\Projects\BakReport\src\Bak.Report.Domain.Shared\obj\Debug\netstandard2.0\Bak.Report.Domain.Shared.pdb

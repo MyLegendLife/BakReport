@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Bak.Report.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Bak.Report.HttpApi.Host\Resources\Bak.Report.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MiniPrograms\IOrderRepository.cs" />
+    <Compile Remove="MiniPrograms\Order.cs" />
+    <Compile Remove="MiniPrograms\Repositories\IMiniProgramCreateInfoRespository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Domain" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bak.Report.Domain.Shared\Bak.Report.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
