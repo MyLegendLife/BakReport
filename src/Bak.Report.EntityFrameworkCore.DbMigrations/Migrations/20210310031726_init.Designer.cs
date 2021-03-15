@@ -11,7 +11,7 @@ using Volo.Abp.EntityFrameworkCore;
 namespace Bak.Report.EntityFrameworkCore.DbMigrations.Migrations
 {
     [DbContext(typeof(ReportMigrationsDbContext))]
-    [Migration("20210305072441_init")]
+    [Migration("20210310031726_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,4 +1,5 @@
-﻿using Bak.Report.Application.Contracts.Reports;
+﻿using System.Linq;
+using Bak.Report.Application.Contracts.Reports;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -22,9 +23,9 @@ namespace Bak.Report.Web.Controllers
         [Route("GetList")]
         public async Task<IActionResult> GetList(int categoryId = -1)
         {
-            var result = await _reportInfoService.GetListAsync();
+            var result = await _reportInfoService.GetListAsync(categoryId);
 
-            return Json(result);
+            return Json(result.Result);
         }
 
         [HttpPost]
@@ -37,7 +38,8 @@ namespace Bak.Report.Web.Controllers
 
             foreach (var image in result.Result.Images)
             {
-                image.Uri = requestUrl + image.Uri;
+                //   ../../files/images/图片202103051557461005.png
+                image.Uri = requestUrl + image.Uri.Replace(@"..\..","");
             }
 
             return Json(result.Result);

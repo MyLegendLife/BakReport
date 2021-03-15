@@ -47,6 +47,6 @@ namespace Bak.Report.Application.Contracts.Reports
         /// 
         /// </summary>
         /// <returns></returns>
-        Task<ServiceResult<IEnumerable<ReportInfoDto>>> GetListAsync();
+        Task<ServiceResult<IEnumerable<ReportInfoDto>>> GetListAsync(int categoryId = -1);
     }
 }

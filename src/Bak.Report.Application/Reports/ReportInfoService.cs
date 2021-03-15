@@ -122,11 +122,11 @@ namespace Bak.Report.Application.Reports
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        public async Task<ServiceResult<IEnumerable<ReportInfoDto>>> GetListAsync()
+        public async Task<ServiceResult<IEnumerable<ReportInfoDto>>> GetListAsync(int categoryId = -1)
         {
             var result = new ServiceResult<IEnumerable<ReportInfoDto>>();
 
-            var list = await _reportInfoRepository.GetListAsync();
+            var list = await _reportInfoRepository.GetListAsync(categoryId);
 
             var dtos = ObjectMapper.Map<IEnumerable<ReportInfo>, IEnumerable<ReportInfoDto>>(list);
 

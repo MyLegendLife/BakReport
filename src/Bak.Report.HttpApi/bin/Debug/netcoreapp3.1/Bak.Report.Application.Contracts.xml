@@ -247,7 +247,7 @@
             <param name="input"></param>
             <returns></returns>
         </member>
-        <member name="M:Bak.Report.Application.Contracts.Reports.IReportInfoService.GetListAsync">
+        <member name="M:Bak.Report.Application.Contracts.Reports.IReportInfoService.GetListAsync(System.Int32)">
             <summary>
             
             </summary>

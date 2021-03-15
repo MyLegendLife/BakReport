@@ -1,4 +1,5 @@
-﻿using Volo.Abp.Domain.Entities;
+﻿using System.Text.Json.Serialization;
+using Volo.Abp.Domain.Entities;
 
 namespace Bak.Report.Domain.Reports
 {
@@ -8,6 +9,7 @@ namespace Bak.Report.Domain.Reports
 
         public virtual string Uri { get; set; }
 
+        [JsonIgnore]
         public virtual ReportInfo ReportInfo { get; set; }
 
         public virtual int ReportInfoId { get; set; }
